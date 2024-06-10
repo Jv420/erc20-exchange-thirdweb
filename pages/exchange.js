@@ -25,7 +25,7 @@ const Exchange = () => {
         from: accounts[0],
         value: web3.utils.toWei(matic.toString(), "ether"),
       });
-      alert("You have successfully purchased ATH tokens");
+      alert("You have successfully purchased $Vloei tokens");
     } catch (error) {
       console.error(error);
       alert("Error purchasing tokens");
@@ -66,10 +66,10 @@ const Exchange = () => {
   return (
     <div>
       <Head>
-        <title>Exchange TEST tokens</title>
+        <title>Exchange $Vloei tokens</title>
       </Head>
       <div className="exchange__container">
-        <h1>Purchase TEST Tokens</h1>
+        <h1>Purchase $VLOEI Tokens</h1>
         <input
           type="number"
           placeholder="Amount of tokens"
