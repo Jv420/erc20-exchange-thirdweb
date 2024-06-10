@@ -3,7 +3,7 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThirdwebProvider clientId={process.env.CLIENT1} desiredChainId={ChainId.Polygon}>
+    <ThirdwebProvider clientId={process.env.CLIENT1}, desiredChainId={ChainId.Polygon}>
       <Component {...pageProps} />
     </ThirdwebProvider>
   );
